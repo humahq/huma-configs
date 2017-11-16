@@ -2,7 +2,7 @@
   "default": {
     "steps": [
       {
-        "text": "Ok. You started a tutorial, great! Now you can try adding a button. Type \"add button\"",
+        "text": "You started a tutorial. Great! Now you can try adding a button. Type \"add button\"",
         "hint": "Type \"add button\"",
         "query": {
           "_actionName": "add-component",
