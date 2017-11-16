@@ -1,2 +1,65 @@
 {
+  "default": {
+    "steps": [
+      {
+        "text": "Perfect! You started a tutorial, great! Now you can try adding a button. Type \"add button\"",
+        "hint": "Type \"add button\"",
+        "query": {
+          "_actionName": "add-component",
+          "component": "RaisedButton"
+        },
+        "options": [
+          "add button",
+          "add placeholder"
+        ]
+      },
+      {
+        "text": "Perfect, you added a button! Now you can try moving it to the top. Type \"move it to the top\"",
+        "hint": "Type \"move it to the top\"",
+        "query": {
+          "_actionName": "move-grid-quadrant",
+          "position": "top"
+        }
+      },
+      {
+        "text": "Great! Now you can try adding a checkbox. Type \"add checkbox\"",
+        "hint": "Type \"add checkbox\"",
+        "query": {
+          "_actionName": "add-component",
+          "component": "Checkbox"
+        }
+      },
+      {
+        "text": "You finished the tutorial, congratulations!"
+      }
+    ]
+  },
+  "list": {
+    "steps": [
+      {
+        "text": "Hey! setting data on a list is so easy! First add a list.",
+        "query": {
+          "_actionName": "add-component",
+          "component": "ContactListSearch"
+        },
+        "options": [
+          "add list",
+          "add contact list"
+        ]
+      },
+      {
+        "text": "Now we're talking! Right, to set its data, type \"set data to actors\"",
+        "query": {
+          "_actionName": "set-table-data",
+          "url": "actors"
+        },
+        "options": [
+          "set data to actors"
+        ]
+      },
+      {
+        "text": "You did it! Now that wasn't that difficult after all, was it?"
+      }
+    ]
+  }
 }
